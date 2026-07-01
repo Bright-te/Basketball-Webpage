@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/cdd?familyMontserrat:500');
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("basketball.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+}
+
+footer{
+    background-color: #0088a9;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%; 
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px
+}
+
+   
+
+.nav_links li a:hover{
+    color: #0088a9;
+}   
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(0, 153, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+label{
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    margin-left: 10px;
+}
+
+input{
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+    margin-bottom: 15px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    width: 900px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+button:hover{
+        background-color: rgb(0, 76, 175);
+}
+
+.ace{
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.are{
+    display: flex;
+}
+
+textarea{
+    width: 893px;
+    height: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.box1{
+    color: white;
+}
+
+#text{
+    margin-left: 10px;
+}
+
+#text1{
+    border: 0.5px solid;
+    width:250px;
+    height: 105px;
+    margin-left: 550px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 25px(rgb(255, 255, 255));
+    transition: 0.3s ease 0s;
+}
+
+#text1:hover{
+    box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.3);
+    border-color: #ff9100;
+    cursor: pointer;
+    width: 255px;
+    height: 110px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    color: #0088a9;
+}
+
+h3{
+    font-size: 20px;
+    color: white;
+}
+
+#rule_box{
+    border: 0.5px solid;
+    width:300px;
+    height: 150px;
+    margin-left: 530px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 5px;
+    background-color: black;
+    transition: 0.3s ease 0.05s;
+}
+
+#rule_box:hover{
+    box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.3);
+    border-color: #ff9100;
+    cursor: pointer;
+    width: 305px;
+    height: 155px;
+}
+
+#rule_box1{
+    border: 0.5px solid;
+    width:300px;
+    height: 190px;
+    margin-left: 530px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 25px(rgb(255, 255, 255));
+    margin-bottom: 50px;
+    padding: 5px;
+    background-color: black;
+    box-shadow: 0px 10px 25px(rgb(255, 255, 255));
+    transition: 0.3s ease 0.05s;
+    
+}
+
+#rule_box1:hover{
+    box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.3);
+    border-color: #ff9100;
+    cursor: pointer;
+    width: 305px;
+    height: 195px;
+}
+
+.new{
+    font-size: 15px;
+}
+
+.logo{
+    margin-left: -150px;
+    margin-right: 15px;
+    font-size: 37px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #ff7300;
+}
+
+.ctt{
+    text-align: left;
+}
+
+.link{
+    font-size: 15px;
+}
+
+.role{
+    font-size: 15px;
+    text-decoration: underline;
+    transition: 0.3s ease 0s;
+    color: black;
+}
+
+.role:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+.bottom{
+    margin-top: 10px;
+}
+
+.email{
+    margin-left: 150px;
+}
+
+.phone{
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 120px;
+}
+
+#ben{
+    border: 0.5px solid;
+    width:300px;
+    height: 120px;
+    margin-left: 530px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 5px;
+    background-color: black;
+    transition: 0.3s ease 0.05s;
+}
+
+#ben:hover{
+    box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.3);
+    border-color: #ff9100;
+    cursor: pointer;
+    width: 305px;
+    height: 125px;
+}
