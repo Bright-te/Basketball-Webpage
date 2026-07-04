@@ -6,9 +6,10 @@ body{
     background-position: center;
     background-attachment: fixed;
     margin: 0;
-    width: 100%;
+    width: 100px;
+    min-width: 100%;
+    min-height: 100%;
     font-family: "Montserrat", sans-serif;
-    display: block;
 }
 
 footer{
@@ -18,7 +19,6 @@ footer{
     text-align: center;
     display: flex;
     list-style-type: none;
-
 }
 
 li, a, button{
@@ -34,7 +34,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%; 
+    padding: 2% 10%; 
+    margin: auto;
 }
 
 .nav_links{
@@ -42,8 +43,9 @@ header{
 }
 
 .nav_links li{
-    display: inline-block;
-    padding: 0px 20px
+    display: inline;
+    margin: auto;
+    padding: 0px 18px;
 }
 
    
@@ -74,8 +76,8 @@ input{
     align-items: center;
     padding: 5px;
     border-radius: 5px;
-    display: flex;
-    width: 900px;
+    display: block;
+    width: 80%;
     height: 25px;
     margin-left: 10px;
 }
@@ -94,7 +96,7 @@ button:hover{
 }
 
 textarea{
-    width: 893px;
+    width: 79.5%;
     height: 15px;
     border-radius: 5px;
     margin-left: 10px;
@@ -114,7 +116,8 @@ textarea{
     border: 0.5px solid;
     width:250px;
     height: 105px;
-    margin-left: 550px;
+    margin: auto;
+    margin-bottom: 5%;
     text-align: center;
     border-radius: 15px;
     background-color: black;
@@ -165,9 +168,11 @@ h3{
     font-family: sans-serif;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     padding: 5px;
     background-color: black;
+    margin: auto;
+    margin-bottom: 5%;
     transition: 0.3s ease 0.05s;
 }
 
@@ -183,8 +188,9 @@ h3{
     border: 0.5px solid;
     width:300px;
     height: 190px;
-    margin-left: 530px;
     text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
     border-radius: 15px;
     border-color: white;
     font-size: 12px;
@@ -213,8 +219,8 @@ h3{
 }
 
 .logo{
-    margin-left: -150px;
-    margin-right: 15px;
+    margin-left: -30%;
+    margin-right: 15%;
     font-size: 37px;
     font-family: sans-serif;
     font-weight: bolder;
@@ -259,7 +265,6 @@ h3{
     border: 0.5px solid;
     width:300px;
     height: 120px;
-    margin-left: 530px;
     text-align: center;
     border-radius: 15px;
     border-color: white;
@@ -267,7 +272,9 @@ h3{
     font-family: sans-serif;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin: auto;
+    margin-bottom: 40px;
     padding: 5px;
     background-color: black;
     transition: 0.3s ease 0.05s;
